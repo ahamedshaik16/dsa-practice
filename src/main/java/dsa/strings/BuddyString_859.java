@@ -7,7 +7,7 @@ public class BuddyString_859 {
 
     public static void main(String[] args) {
         BuddyString_859 b = new BuddyString_859();
-        System.out.println(b.buddyStrings("abac", "abad"));
+        System.out.println(b.buddyStrings("abcd", "dcba"));
     }
 
     public boolean buddyStrings(String s, String goal) {
